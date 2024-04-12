@@ -1,11 +1,14 @@
-# Welcome to your Jupyter Book
+# Welcome to the "Uncertainty Quantification in Inverse Problems with CUQIpy" mini-book!
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+**Note: this mini-book is under construction**
 
-Check out the content pages bundled with this sample book to see more.
+This mini-book contains supporting material for the Technical University of Denmark (DTU) 
+course: "02975: Introduction to uncertainty quantification for inverse problems". It
+illustrates various concepts arising in Bayesian inverse problems with code examples.
+We use the library [CUQIpy](https://github.com/CUQI-DTU/CUQIpy) as a tool for demonstration.
+
+
+## Table of contents
 
 ```{tableofcontents}
 ```
