@@ -9,10 +9,11 @@ logo: logo.png
 # See https://jupyterbook.org/content/execute.html
 execute:
   exclude_patterns:
-    - '*Basics/B02*'
-    - '*Basics/B03*'
-    - '*Basics/B04*'
+    - '*nopattern*'
 
+# Cache the outputs of notebooks to speed up build times.
+execute:
+  execute_notebooks: cache
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
