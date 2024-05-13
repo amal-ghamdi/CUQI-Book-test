@@ -1,10 +1,37 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
+
+# ===== Main Landing Page ========================================
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: training/Basics/Intro_example
-- file: training/Basics/B01_Distributions
+parts:
 
+  - chapters:
+      # ===== chapter 1 ========================================
+      - file: chapter01/chapter01
+        sections:
+          - title: "Overview of CUQIpy"
+            file: chapter01/introduction_overview_of_cuqipy
+          - title: "Introduction to Bayesian Inverse Problem using CUQIpy"
+            file: chapter01/Intro_example.ipynb
+          - title: "Two forward models"
+            file: chapter01/two_forward_problems.ipynb
+
+      # ===== chapter 2 ========================================
+      - file: chapter02/chapter02
+        sections:
+          - title: "Section 01"
+            file: chapter02/section01
+
+      # ===== chapter 3 ========================================
+      - file: chapter03/chapter03
+        sections:
+          - title: "Section 01"
+            file: chapter03/section01
+
+      # ===== chapter 4 ========================================
+      - file: chapter04/chapter04
+        sections:
+          - title: "Section 01"
+            file: chapter04/section01
