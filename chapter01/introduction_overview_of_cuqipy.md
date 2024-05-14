@@ -9,7 +9,6 @@
 * [CUQIpy plugins](#cuqipy-plugins)
 * [CUQIpy design principles](#cuqipy-design-principles)
 * [Role of CUQIpy in this course](#role-of-cuqipy-in-this-course)
-* [CUQIpy component learning objectives](#cuqipy-component-learning-objectives)
 * [CUQIpy installation](#installation)
 
 
@@ -25,6 +24,16 @@
   * Analyzing the solution of Bayesian inverse problems
 
 **placeholder for image of CUQIpy components-the three columns**
+
+### Why CUQIpy? <a class="anchor" id="why-cuqipy"></a>
+CUQIpy is built to address the need for:
+  - A unified framework for solving Bayesian inverse problems across various scientific and engineering applications
+  - A platform for modeling, solving and analyzing the solution of Bayesian inverse problems
+  - A tool that can be used for both research and teaching
+  - A tool that can be used by both beginners and advanced users
+  - A tool that combines classical and advanced and scalable numerical methods for solving Bayesian inverse problems
+  - A tool that is implemented purely in Python with minimal dependencies and can be easily maintained and integrated with other tools
+
 
 ### CUQIpy modules <a class="anchor" id="cuqipy-modules"></a>
 * CUQIpy consists of many modules for modeling, solving, and analyzing Bayesian inverse problems.
@@ -94,5 +103,5 @@ See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.git
 
 ## CUQIpy installation <a class="anchor" id="installation"></a>
 
-https://cuqi-dtu.github.io/CUQIpy/user/getting_started.html
+The instructions for installing CUQIpy can be found [here](https://cuqi-dtu.github.io/CUQIpy/user/getting_started.html).
 
