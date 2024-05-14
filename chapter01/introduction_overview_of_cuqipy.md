@@ -8,7 +8,6 @@
 * [CUQIpy modules](#cuqipy-modules)
 * [CUQIpy plugins](#cuqipy-plugins)
 * [CUQIpy design principles](#cuqipy-design-principles)
-  * [Bayesian Inverse Problem in 5 steps](#bayesain-inverse-problem-in-5-steps)
 * [Role of CUQIpy in this course](#role-of-cuqipy-in-this-course)
 * [CUQIpy component learning objectives](#cuqipy-component-learning-objectives)
 * [CUQIpy installation](#installation)
@@ -38,10 +37,47 @@
 ### CUQIpy plugins <a class="anchor" id="cuqipy-plugins"></a>
 
 * In addition to the CUQIpy modules, CUQIpy also has plugins that extend the functionality of the framework. 
-* These plugins allows integration of third party software and tools with CUQIpy.
+* These plugins allow integration of third-party software and tools with CUQIpy.
 * click [here](https://cuqi-dtu.github.io/CUQIpy/#cuqipy-plugins) to see the list of plugins available in CUQIpy.
 
 ![CUQIpy plugins](../images/cuqipy_modules_plugin.png)
+
+
+### CUQIpy design principles <a class="anchor" id="cuqipy-design-principles"></a>
+* Provide simple and intuitive interface for users
+* Design for flexibility, extensibility, modularity, and maintainability
+* Accommodate both beginners and advanced users. e.g.,
+  - Provide a set of test problems to use for experimentation and prototyping
+  - Automatic sampler selection for a range of problems
+  - Enable advanced customization of the problem setup and solution
+* Aligning the modeling code with the mathematical formulation of the problem, e.g.,
+ 
+Bayesian model:
+
+$$
+\begin{align*}
+d &\sim \text{Gamma}(1, 10^{-4})\\
+s &\sim \text{Gamma}(1, 10^{-4})\\
+x &\sim \text{LMRF}(d^{-1})\\
+y &\sim \text{Gaussian}(\mathbf{A}\mathbf{x}, s^{-1}\mathbf{I})\\
+p(d,s,x,y) &= p(d)p(s)p(x|d)p(y|x,s)
+\end{align*}
+$$
+
+where $d^{-1}$ and $s$ are the precision parameters of the prior (the LMRF) and the data distribution (the Gaussian), respectively, $x$ is the model parameter, and $y$ is the data. $\mathbf{A}$ is the forward operator.
+
+Bayesian model in CUQIpy:
+```python
+d = Gamma(1, 1e-4)
+s = Gamma(1, 1e-4)
+x = LMRF(1/d)
+y = Gaussian(A@x, 1/s)
+joint = JointDistribution(d, s, x, y)
+```
+
+See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.github.io/CUQIpy/).
+
+### Role of CUQIpy in this course <a class="anchor" id="role-of-cuqipy-in-this-course"></a>
 
 
 ## CUQIpy installation <a class="anchor" id="installation"></a>
