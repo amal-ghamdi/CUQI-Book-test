@@ -78,6 +78,18 @@ joint = JointDistribution(d, s, x, y)
 See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.github.io/CUQIpy/).
 
 ### Role of CUQIpy in this course <a class="anchor" id="role-of-cuqipy-in-this-course"></a>
+* The course "02975: Introduction to uncertainty quantification for inverse problems" covers various concepts in uncertainty quantification in inverse problems including:
+  - Theory
+  - Modeling
+  - Numerical methods
+  - Analysis
+  - Coding
+
+* This course is not specificly for learning CUQIpy, however, CUQIpy is used as a tool for demonstration, prototyping, and exploring ideas
+
+* Although CUQIpy provides many methods for solving Bayesian inverse problems, the students will be asked in various assignments to implement some of the methods themselves to understand the underlying principles.
+
+* The CUQIpy component of the course is covered in about 10 hours of lectures and exercises.
 
 
 ## CUQIpy installation <a class="anchor" id="installation"></a>
