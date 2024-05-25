@@ -23,7 +23,8 @@
   * Solving Bayesian inverse problems using classical and advanced numerical tools
   * Analyzing the solution of Bayesian inverse problems
 
-**placeholder for image of CUQIpy components-the three columns**
+![CUQIpy overview](images/cuqipy_diagram.png)
+
 
 ### Why CUQIpy? <a class="anchor" id="why-cuqipy"></a>
 CUQIpy is built to address the need for:
