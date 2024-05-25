@@ -37,3 +37,10 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  navbar_number_sections: true
+
+# extention for sphinx-book-theme
+
+sphinx:
+  extra_extensions          : ["sphinx_multitoc_numbering"]
+
