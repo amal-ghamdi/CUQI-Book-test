@@ -18,6 +18,8 @@ execute:
 latex:
   latex_documents:
     targetname: book.tex
+  latex_engine              : pdflatex 
+  use_jupyterbook_latex     : true # use sphinx-jupyterbook-latex for pdf builds as default
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -25,12 +27,13 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
+  url: https://github.com/CUQI-DTU/CUQI-Book  # Online location of your book
+  path_to_book: /  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+
 html:
   use_issues_button: true
   use_repository_button: true
