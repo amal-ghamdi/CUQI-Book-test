@@ -15,7 +15,7 @@ parts:
         sections:
           - title: "Overview of CUQIpy"
             file: chapter01/introduction_overview_of_cuqipy
-          - title: "Introduction to Bayesian Inverse Problem using CUQIpy"
+          - title: "Probably the simplest BIP in the world"
             file: chapter01/Intro_example.ipynb
           - title: "Two forward models"
             file: chapter01/two_forward_problems.ipynb
