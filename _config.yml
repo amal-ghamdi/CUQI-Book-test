@@ -44,4 +44,37 @@ html:
 
 sphinx:
   extra_extensions          : ["sphinx_multitoc_numbering"]
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    mathjax3_config:
+      tex:
+        macros:
+          "dd": "\\mathrm{d}"
+          "abs": ["\\left\\vert#1\\right\\vert", 1]
+          "ve": ["\\bm{#1}", 1] 
+          "mat": ["\\mathbf{#1}",1]
+          "N": "\\mathbb{N}"
+          "floor": ["\\lfloor#1\\rfloor", 1]
+          "bmat" : ["\\left[\\begin{array}"]
+          "emat" : ["\\end{array}\\right]"]
+    #latex_elements:
+    #  preamble: '\newcommand{\mycmnd}{\arabic{mycmnd}}'
 
+#parse:
+#  myst_enable_extensions:
+#    # don't forget to list any other extensions you want enabled,
+#    # including those that are enabled by default!
+#    - amsmath
+#    - attrs_inline
+#    - colon_fence
+#    - deflist
+#    - dollarmath
+#    - fieldlist
+#    - html_admonition
+#    - html_image
+#    - linkify
+#    - replacements
+#    - smartquotes
+#    - strikethrough
+#    - substitution
+#    - tasklist
