@@ -49,14 +49,15 @@ sphinx:
     mathjax3_config:
       tex:
         macros:
-          "dd": "\\mathrm{d}"
-          "abs": ["\\left\\vert#1\\right\\vert", 1]
-          "ve": ["\\bm{#1}", 1] 
-          "mat": ["\\mathbf{#1}",1]
-          "N": "\\mathbb{N}"
-          "floor": ["\\lfloor#1\\rfloor", 1]
-          "bmat" : ["\\left[\\begin{array}"]
-          "emat" : ["\\end{array}\\right]"]
+          "dd"    : "\\mathrm{d}"
+          "abs"   : ["\\left\\vert#1\\right\\vert", 1]
+          "ve"    : ["\\bm{#1}", 1]
+          "mat"   : ["\\mathbf{#1}",1]
+          "N"     : "\\mathbb{N}"
+          "floor" : ["\\lfloor#1\\rfloor", 1]
+          "bmat"  : ["\\left[\\begin{array}"]
+          "emat"  : ["\\end{array}\\right]"]
+          "bm"    : ["{\\boldsymbol #1}",1]
     #latex_elements:
     #  preamble: '\newcommand{\mycmnd}{\arabic{mycmnd}}'
 
