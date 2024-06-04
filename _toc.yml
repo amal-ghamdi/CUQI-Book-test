@@ -13,12 +13,10 @@ parts:
       # ===== chapter 1 ========================================
       - file: chapter01/chapter01
         sections:
-          - title: "Overview of CUQIpy"
-            file: chapter01/introduction_overview_of_cuqipy
-          - title: "Probably the simplest BIP in the world"
-            file: chapter01/Intro_example.ipynb
-          - title: "Two forward models"
-            file: chapter01/two_forward_problems.ipynb
+          - file: chapter01/introduction_overview_of_cuqipy
+          - file: chapter01/Intro_example.ipynb
+          - file: chapter01/two_forward_problems_new.ipynb
+          - file: chapter01/extra_forward_models.ipynb 
 
       # ===== chapter 2 ========================================
       - file: chapter02/chapter02
