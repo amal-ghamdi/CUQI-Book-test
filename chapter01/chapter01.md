@@ -1,4 +1,4 @@
-# Chapter 1: Introduction to Bayesian Inverse Problems in CUQIpy
+# Chapter 1: Introduction to Bayesian Inverse Problems (BIP) in CUQIpy
 
 By the end of this chapter, you will be able to:
 
@@ -8,4 +8,5 @@ By the end of this chapter, you will be able to:
 - Explain the difference between data distribution and likelihood
 - Explain the role of prior and likelihood
 - List 2 methods used to characterize the posterior distribution
-- TODO: learning objective for the forward models
+- Create (or load pre-existing) linear and non-linear forward models in CUQIpy and use them.
+- Mathematically define two forward models: 1D Poisson and 1D Convolution and use them in CUQIpy
