@@ -129,8 +129,8 @@ See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.git
     - how to use them
     - for what purpose
     - and identifying the right tool
-- Throughout all the course components, including CUQIpy, you will end the course with more tools in your BIP toolbox
-![toolbox](../images/toolbox2.jpeg)
+- Throughout all the course components, including CUQIpy, you will end up with more tools in your BIP toolbox
+![toolbox](../images/toolbox3.jpeg)
 
 
 ### How to run the code and solve the coding exercises in this mini-book? <a class="anchor" id="running-the-code"></a>
