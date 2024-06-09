@@ -21,10 +21,8 @@ parts:
       # ===== chapter 2 ========================================
       - file: chapter02/chapter02
         sections:
-          - title: "Introduction to distributions and basic sampling in CUQIpy"
-            file: chapter02/Distributions.ipynb
-          - title: "Gibbs sampling"
-            file: chapter02/Gibbs.ipynb
+          - file: chapter02/prior.ipynb
+          - file: chapter02/mcmc.ipynb
 
       # ===== chapter 3 ========================================
       - file: chapter03/chapter03
