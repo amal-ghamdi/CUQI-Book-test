@@ -1,6 +1,6 @@
 # Chapter 3: Gradient-based MCMC: Langevin and Hamiltonian methods
 
-
+**note: chapter under construction**
 
 ## Table of Contents:
 * [Introduction](#Introduction)
@@ -108,7 +108,7 @@ p(\boldsymbol{x}, \boldsymbol{r}) = \dfrac{1}{Z}\exp\left(-\dfrac{H(\boldsymbol{
 $$
 
 * There are several ways to set the kinetic energy (density of the auxiliary momentum):
-  - Euclidean--Gaussian kinetic energy: using a fixed covariance $\boldsymbol{M}$ estimated from the position parameters, $K(\boldsymbol{p},\boldsymbol{q}) = \dfrac{1}{2} \boldsymbol{r}^\T\boldsymbol{M}^{-1}\boldsymbol{r} + \log(\abs{\boldsymbol{M}}) + \text{const}$.
+  - Euclidean--Gaussian kinetic energy: using a fixed covariance $\boldsymbol{M}$ estimated from the position parameters, $K(\boldsymbol{p},\boldsymbol{q}) = \dfrac{1}{2} \boldsymbol{r}^T\boldsymbol{M}^{-1}\boldsymbol{r} + \log(\abs{\boldsymbol{M}}) + \text{const}$.
   - Riemann--Gaussian kinetic energy: unlike the Euclidean metric, varies as one moves through parameter space, $K(\boldsymbol{r}, \boldsymbol{x}) = \dfrac{1}{2} \boldsymbol{r}^T\boldsymbol{\Sigma}(\boldsymbol{x})^{-1}\boldsymbol{r} + \dfrac{1}{2}\log(\abs{\boldsymbol{\Sigma}(\boldsymbol{x})}) + \text{const}$.
   - Non-Gaussian kinetic energies.
   
