@@ -27,8 +27,8 @@ parts:
       # ===== chapter 3 ========================================
       - file: chapter03/chapter03
         sections:
-          - file: chapter03/sampling_with_cuqipy.ipynb
-          - file: chapter03/gradient_based_sampling_with_cuqipy.ipynb
+          - file: chapter03/sampling_with_cuqipy_two_target.ipynb
+          #- file: chapter03/gradient_based_sampling_with_cuqipy.ipynb
 
       # ===== chapter 4 ========================================
       - file: chapter04/chapter04
