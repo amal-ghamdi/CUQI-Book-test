@@ -44,6 +44,7 @@ html:
 
 sphinx:
   extra_extensions          : ["sphinx_multitoc_numbering"]
+  nb_execution_timeout: 1000
   config:
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     mathjax3_config:
@@ -84,5 +85,3 @@ launch_buttons:
   colab_url: "https://colab.research.google.com"
   thebe                  : true
 
-
-nb_execution_timeout: 120
