@@ -33,5 +33,4 @@ parts:
       # ===== chapter 4 ========================================
       - file: chapter04/chapter04
         sections:
-          - title: "Section 01"
-            file: chapter04/section01
+          - file: chapter04/project.ipynb
