@@ -17,7 +17,7 @@
 
 ## Introduction <a class="anchor" id="introduction"></a>
 
-**note: some of the details mentioned here will make more sense after going through the next notebook titled "Probably the simplest BIP in the world"**
+**Note: some of the details mentioned here will make more sense after going through the next notebook titled "Probably the simplest BIP in the world"**
 
 ### What is CUQIpy? <a class="anchor" id="what-is-cuqipy"></a>
 * CUQIpy is a Python package.
@@ -109,7 +109,7 @@ See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.git
   - Analysis
   - Coding
 
-* This course is not specificly for learning CUQIpy, however, CUQIpy is used as a tool for demonstration, prototyping, and exploring ideas
+* This course is not specificly for learning CUQIpy. However, CUQIpy is used as a tool for demonstration, prototyping, and exploring ideas.
 
 * Although CUQIpy provides many methods for solving Bayesian inverse problems, the students will be asked in various assignments to implement some of the methods themselves to understand the underlying principles.
 
