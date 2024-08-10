@@ -11,6 +11,8 @@ execute:
   exclude_patterns:
     - '*nopattern*'
     - 'raw/*'
+    - 'chapter0B/Plugins/*'
+    - 'chapter0B/PDE/*'
 
 # Cache the outputs of notebooks to speed up build times.
 execute:
