@@ -2,10 +2,7 @@
 
 **Note: this mini-book is under construction**
 
-This mini-book contains supporting material for the Technical University of Denmark (DTU) 
-course: "02975: Introduction to uncertainty quantification for inverse problems". It
-illustrates various concepts arising in Bayesian inverse problems with code examples.
-We use the library [CUQIpy](https://github.com/CUQI-DTU/CUQIpy) as a tool for demonstration.
+This mini-book contains training material on how to use the [CUQIpy](https://github.com/CUQI-DTU/CUQIpy) library for uncertainty quantification in inverse problems. It also covers some of the theoretical background behind the methods implemented in CUQIpy.
 
 
 ## Table of contents
