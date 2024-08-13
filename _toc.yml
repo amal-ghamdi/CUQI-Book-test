@@ -16,7 +16,22 @@ parts:
           - file: chapter01/introduction_overview_of_cuqipy
           - file: chapter01/Intro_example.ipynb
           - file: chapter01/two_forward_problems_new.ipynb
-          - file: chapter01/extra_forward_models.ipynb 
+
+      # ===== chapter A ========================================
+      - file: chapter0A/chapter0A
+        sections:
+          - file: chapter0A/B01_Distributions.ipynb
+          - file: chapter0A/B02_Forward_Models.ipynb
+          - file: chapter0A/B03_Bayesian_Inverse_Problems.ipynb
+          - file: chapter0A/B04_Gibbs.ipynb
+
+      # ===== chapter B ========================================
+      - file: chapter0B/chapter0B
+        sections:
+          - file: chapter0B/PDE/PDE01_Exercise_PDE.ipynb
+          - file: chapter0B/Plugins/CUQIpy-CIL/CC01_demo_CT.ipynb
+          - file: chapter0B/Plugins/CUQIpy-FEniCS/CF01_Poisson_2D_CUQIpy-FEniCS.ipynb
+          - file: chapter0B/Plugins/CUQIpy-PyTorch/CP01_HMC.ipynb
 
       # ===== chapter 2 ========================================
       - file: chapter02/chapter02
@@ -32,5 +47,3 @@ parts:
 
       # ===== chapter 4 ========================================
       - file: chapter04/chapter04
-        sections:
-          - file: chapter04/project.ipynb
