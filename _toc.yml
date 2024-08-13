@@ -47,5 +47,3 @@ parts:
 
       # ===== chapter 4 ========================================
       - file: chapter04/chapter04
-        sections:
-          - file: chapter04/project.ipynb
