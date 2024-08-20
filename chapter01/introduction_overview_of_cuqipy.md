@@ -73,7 +73,7 @@ $$
 \begin{align*}
 d &\sim \text{Gamma}(1, 10^{-4})\\
 s &\sim \text{Gamma}(1, 10^{-4})\\
-x &\sim \text{LMRF}(d^{-1})\\
+x &\sim \text{LMRF}(\mathbf{0}, d^{-1})\\
 y &\sim \text{Gaussian}(\mathbf{A}\mathbf{x}, s^{-1}\mathbf{I})\\
 p(d,s,x,y) &= p(d)p(s)p(x|d)p(y|x,s)
 \end{align*}
@@ -85,8 +85,8 @@ Bayesian model in CUQIpy:
 ```python
 d = Gamma(1, 1e-4)
 s = Gamma(1, 1e-4)
-x = LMRF(1/d)
-y = Gaussian(A@x, 1/s)
+x = LMRF(0, lambda d: 1/d)
+y = Gaussian(A@x, lambda s: 1/s)
 joint = JointDistribution(d, s, x, y)
 ```
 
@@ -99,21 +99,6 @@ See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.git
 - [Amal Mohammed A Alghamdi](https://orbit.dtu.dk/en/persons/amal-mohammed-a-alghamdi)
 
 - [Chao Zhang (Charlie)](https://www.dtu.dk/english/person/chao-zhang?id=207508&entity=profile)
-
-
-### Role of CUQIpy in this course <a class="anchor" id="role-of-cuqipy-in-this-course"></a>
-* The course "02975: Introduction to uncertainty quantification for inverse problems" covers various concepts in uncertainty quantification in inverse problems including:
-  - Theory
-  - Modeling
-  - Numerical methods
-  - Analysis
-  - Coding
-
-* This course is not specificly for learning CUQIpy. However, CUQIpy is used as a tool for demonstration, prototyping, and exploring ideas.
-
-* Although CUQIpy provides many methods for solving Bayesian inverse problems, the students will be asked in various assignments to implement some of the methods themselves to understand the underlying principles.
-
-* The CUQIpy component of the course is covered in about 14 hours of lectures, exercises and a guest lecture by Jakob Sauer Jørgensen.
 
 
 ### Remarks <a class="anchor" id="remarks"></a>
@@ -134,6 +119,7 @@ See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.git
 
 
 ### How to run the code and solve the coding exercises in this mini-book? <a class="anchor" id="running-the-code"></a>
+
 - For now, it is not possible to run the code interactively in this online mini-book (plans to enable this in the future).
 - We suggest the following options:
     - Running on your local machine (preferred)
