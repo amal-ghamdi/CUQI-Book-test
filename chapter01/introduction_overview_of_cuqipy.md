@@ -101,24 +101,6 @@ See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.git
 - [Chao Zhang (Charlie)](https://www.dtu.dk/english/person/chao-zhang?id=207508&entity=profile)
 
 
-### Role of CUQIpy in this course <a class="anchor" id="role-of-cuqipy-in-this-course"></a>
-
-Shall we remove this section and the one below (or perhaps move it into its own file/chapter)?
-
-* The course "02975: Introduction to uncertainty quantification for inverse problems" covers various concepts in uncertainty quantification in inverse problems including:
-  - Theory
-  - Modeling
-  - Numerical methods
-  - Analysis
-  - Coding
-
-* This course is not specificly for learning CUQIpy. However, CUQIpy is used as a tool for demonstration, prototyping, and exploring ideas.
-
-* Although CUQIpy provides many methods for solving Bayesian inverse problems, the students will be asked in various assignments to implement some of the methods themselves to understand the underlying principles.
-
-* The CUQIpy component of the course is covered in about 14 hours of lectures, exercises and a guest lecture by Jakob Sauer Jørgensen.
-
-
 ### Remarks <a class="anchor" id="remarks"></a>
 - This is first time we offer the CUQIpy component of the course.
 - We are excited about this component and hope you will find it useful.
@@ -137,7 +119,6 @@ Shall we remove this section and the one below (or perhaps move it into its own 
 
 
 ### How to run the code and solve the coding exercises in this mini-book? <a class="anchor" id="running-the-code"></a>
-This section (and below) needs an update.
 
 - For now, it is not possible to run the code interactively in this online mini-book (plans to enable this in the future).
 - We suggest the following options:
