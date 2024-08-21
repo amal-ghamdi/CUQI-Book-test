@@ -8,15 +8,16 @@ logo: images/logo.png
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
+#  allow_errors: true
+  execute_notebooks: cache
   exclude_patterns:
-    - '*nopattern*'
-    - 'raw/*'
-    - '*chapter0B/Plugins/*'
-    - '*chapter0B/PDE/*'
+    - 'CC01*'
+    - 'CF01*'
+    - 'CP01*'
+    - 'gibbs*'
+    - 'sketch*'
 
-# Cache the outputs of notebooks to speed up build times.
-execute:
-  execute_notebooks: off
+
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
