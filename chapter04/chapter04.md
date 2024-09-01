@@ -1,4 +1,4 @@
-# Chapter 4: Advanced Bayesian Inference in CUQIpy
+# Chapter 5: Advanced Bayesian Inference in CUQIpy
 
 
 More exploration with CUQIpy
