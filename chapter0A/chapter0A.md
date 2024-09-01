@@ -1,1 +1,1 @@
-# Chapter A: Training Materials
+# Chapter 2: Training Materials
