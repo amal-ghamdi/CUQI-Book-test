@@ -25,6 +25,9 @@ parts:
           - file: chapter0A/B02_Forward_Models.ipynb
           - file: chapter0A/B03_Bayesian_Inverse_Problems.ipynb
           - file: chapter0A/B04_Gibbs.ipynb
+          - file: chapter0A/markov_random_field.ipynb
+          - file: chapter0A/geometries_in_cuqipy.ipynb
+          - file: chapter0A/entropy.ipynb
 
       # ===== chapter B ========================================
       - file: chapter0B/chapter0B
@@ -34,11 +37,6 @@ parts:
           - file: chapter0B/Plugins/CUQIpy-FEniCS/CF01_Poisson_2D_CUQIpy-FEniCS.ipynb
           - file: chapter0B/Plugins/CUQIpy-PyTorch/CP01_HMC.ipynb
 
-      # ===== chapter 2 ========================================
-      - file: chapter02/chapter02
-        sections:
-          - file: chapter02/prior.ipynb
-          - file: chapter02/gibbs.ipynb
 
       # ===== chapter 3 ========================================
       - file: chapter03/chapter03
