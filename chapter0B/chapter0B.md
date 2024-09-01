@@ -1,1 +1,1 @@
-# Chapter B: Special topics
+# Chapter 3: Special topics
