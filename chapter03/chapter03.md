@@ -1,1 +1,1 @@
-# Chapter 4: Sampling with CUQIpy
+# Chapter 7: More theory on sampling

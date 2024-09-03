@@ -1,1 +1,1 @@
-# Chapter 2: Training Materials
+# Chapter 3: Basics of CUQIpy for solving BIPs
