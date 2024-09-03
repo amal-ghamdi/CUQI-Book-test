@@ -1,4 +1,4 @@
-# Chapter 1: Introduction to Bayesian Inverse Problems (BIP) in CUQIpy
+# Chapter 1: Introduction to CUQIpy
 
 By the end of this chapter, you will be able to:
 
