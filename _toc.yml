@@ -14,6 +14,7 @@ parts:
       - file: chapter01/chapter01
         sections:
           - file: chapter01/introduction_overview_of_cuqipy
+          - file: chapter01/Intro_example_short.ipynb
           - file: chapter01/Intro_example.ipynb
           - file: chapter01/two_forward_problems_new.ipynb
 
