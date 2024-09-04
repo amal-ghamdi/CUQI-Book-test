@@ -105,7 +105,7 @@ See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.git
 ### How to run the code and solve the coding exercises in this mini-book? <a class="anchor" id="running-the-code"></a>
 
 
-- Here we suggest the following options to run the code and solve the coding exercises in this mini-book:
+Here we suggest the following options to run the code and solve the coding exercises in this mini-book:
     - Running on your local machine (preferred)
     - Running the notebook interactively 
 
