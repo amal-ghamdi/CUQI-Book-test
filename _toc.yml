@@ -14,46 +14,46 @@ parts:
       - file: chapter01/chapter01
         sections:
           - file: chapter01/introduction_overview_of_cuqipy
-          - file: chapter01/Intro_example_short.ipynb
-          - file: chapter01/Intro_example.ipynb
+          - file: chapter01/intro_example_short.ipynb
+          - file: chapter01/intro_example_long.ipynb
 
       # ===== chapter 2 ========================================
       - file: chapter02/chapter02
         sections:
-          - file: chapter01/two_forward_problems_new.ipynb
-          - file: chapter03/sampling_with_cuqipy_two_target.ipynb
+          - file: chapter02/two_forward_problems.ipynb
+          - file: chapter02/two_target_distributions.ipynb
 
       # ===== chapter 3 ========================================
-      - file: chapter0A/chapter0A
+      - file: chapter03/chapter03
         sections:
-          - file: chapter0A/B01_Distributions.ipynb
-          - file: chapter0A/B02_Forward_Models.ipynb
-          - file: chapter0A/B03_Bayesian_Inverse_Problems.ipynb
+          - file: chapter03/basics_distributions.ipynb
+          - file: chapter03/basics_forward_Models.ipynb
+          - file: chapter03/basics_bayesian_inverse_problems.ipynb
 
       # ===== chapter 4 ========================================
       - file: chapter04/chapter04
         sections:
-          - file: chapter0A/B04_Gibbs.ipynb
-          - file: chapter0B/PDE/PDE01_Exercise_PDE.ipynb
-          - file: chapter0B/Plugins/CUQIpy-CIL/CC01_demo_CT.ipynb
-          - file: chapter0B/Plugins/CUQIpy-FEniCS/CF01_Poisson_2D_CUQIpy-FEniCS.ipynb
-          - file: chapter0B/Plugins/CUQIpy-PyTorch/CP01_HMC.ipynb
+          - file: chapter04/gibbs.ipynb
+          - file: chapter04/Plugins/CUQIpy-CIL/demo_ct.ipynb
+          - file: chapter04/PDE/core_pde.ipynb
+          - file: chapter04/Plugins/CUQIpy-FEniCS/poisson_2D_fenics.ipynb
+          - file: chapter04/Plugins/CUQIpy-PyTorch/hmc.ipynb
 
       # ===== chapter 5 ========================================
       - file: chapter05/chapter05
         sections:
-          - file: chapter0A/geometries_in_cuqipy.ipynb
+          - file: chapter05/geometries_in_cuqipy.ipynb
 
       # ===== chapter 6 ========================================
       - file: chapter06/chapter06
         sections:
-          - file: chapter0A/markov_random_field.ipynb
-          - file: chapter0A/entropy.ipynb
+          - file: chapter06/markov_random_fieldS.ipynb
+          - file: chapter06/entropy.ipynb
 
       # ===== chapter 7 ========================================
-      - file: chapter03/chapter03
+      - file: chapter07/chapter07
         sections:
-          - file: chapter03/gradient_based_sampling_with_cuqipy.ipynb
+          - file: chapter07/gradient_based_sampling_with_cuqipy.ipynb
 
 
       # ===== chapter 8 ========================================

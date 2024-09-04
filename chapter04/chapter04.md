@@ -1,1 +1,1 @@
-# Chapter 4: Advances use cases of CUQIpy
+# Chapter 4: Advanced use cases of CUQIpy
