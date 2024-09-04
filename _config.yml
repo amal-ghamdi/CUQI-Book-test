@@ -11,10 +11,9 @@ execute:
 #  allow_errors: true
   execute_notebooks: cache
   exclude_patterns:
-    - 'CC01*'
-    - 'CF01*'
-    - 'CP01*'
-    - 'gibbs*'
+    - 'hmc*'
+    - 'poisson_2D_fenics*'
+    - 'demo_ct*'
     - 'sketch*'
 
 
