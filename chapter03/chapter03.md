@@ -1,1 +1,1 @@
-# Chapter 7: More theory on sampling
+# Chapter 3: Basics of CUQIpy for solving BIPs
