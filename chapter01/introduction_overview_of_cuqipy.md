@@ -101,29 +101,13 @@ See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.git
 - [Chao Zhang (Charlie)](https://www.dtu.dk/english/person/chao-zhang?id=207508&entity=profile)
 
 
-### Remarks <a class="anchor" id="remarks"></a>
-- This is first time we offer the CUQIpy component of the course.
-- We are excited about this component and hope you will find it useful.
-- I am here to facilitate your learning of this component.
-- Feel free to ask questions anytime.
-- Feel free to provide feedback anytime and help us improve.
-- There will be a lot of hands-on exercises and examples to help you understand the concepts.
-- You are encouraged to work in pairs or groups of 3 to discuss and solve the exercises.
-- Disclaimer: keep in mind that notation may vary among different course components.
-- Throughout we will introduce many tools in CUQIpy and discuss 
-    - how to use them
-    - for what purpose
-    - and identifying the right tool
-- Throughout all the course components, including CUQIpy, you will end up with more tools in your BIP toolbox!
-![toolbox](../images/toolbox3.jpeg)
-
 
 ### How to run the code and solve the coding exercises in this mini-book? <a class="anchor" id="running-the-code"></a>
 
-- For now, it is not possible to run the code interactively in this online mini-book (plans to enable this in the future).
-- We suggest the following options:
+
+- Here we suggest the following options to run the code and solve the coding exercises in this mini-book:
     - Running on your local machine (preferred)
-    - Running on learnmore (if you have access)
+    - Running the notebook interactively 
 
 #### Option 1: Running on your local machine
 - You can download each notebook from the top right download button and run it on your local machine.
@@ -135,23 +119,10 @@ git clone https://github.com/CUQI-DTU/CUQI-Book.git
 
 - The instructions for installing CUQIpy can be found [here](https://cuqi-dtu.github.io/CUQIpy/user/getting_started.html).
 
-#### Option 2: Running on learnmore
-- If you have access to learnmore, you can run the notebooks there.
-- Login to [learnmore](https://learnmore2.compute.dtu.dk)
-- Open the terminal (through the terminal icon at the bottom)
-- Create a directory for the course and navigate to it, for example:
-```bash
-mkdir uqcourse2024
-cd uqcourse2024
+#### Option 2: Running the notebook interactively
+- You can run the notebook interactively using the Binder service or Google Colab. On the top right corner of the notebook, you will find a "rocket" icon that will take you to the Binder service or Google Colab. 
+- Note that the Binder service may take a few minutes to load the notebook.
+- Note that on google colab, you may need to install CUQIpy by running the following command in a cell:
+```python
+!pip install cuqipy
 ```
-- Clone the course repository of the book inside the directory as explained above.
-- Use the file browser on the left to navigate to the course directory and open the notebooks.
-- To run the notebook, you need to select a kernel, two kernels are recommended for now (since they both have the latest version of CUQIpy):
-    - `cuqipy-fenics`.
-    - `cuqipy-CIL23.1.0`.
-
-- Now you are ready to run the notebook, tip: use shift+(enter/return) to run a cell.
-
-
-### Additional links <a class="anchor" id="additional-links"></a>
-- Some of the exercises answers will be available in this hackmd page: https://tinyurl.com/uqcourse2024.
