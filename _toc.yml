@@ -27,7 +27,7 @@ parts:
       - file: chapter03/chapter03
         sections:
           - file: chapter03/basics_distributions.ipynb
-          - file: chapter03/basics_forward_Models.ipynb
+          - file: chapter03/basics_forward_models.ipynb
           - file: chapter03/basics_bayesian_inverse_problems.ipynb
 
       # ===== chapter 4 ========================================
@@ -47,7 +47,7 @@ parts:
       # ===== chapter 6 ========================================
       - file: chapter06/chapter06
         sections:
-          - file: chapter06/markov_random_fieldS.ipynb
+          - file: chapter06/markov_random_fields.ipynb
           - file: chapter06/entropy.ipynb
 
       # ===== chapter 7 ========================================
