@@ -1,1 +1,1 @@
-# Chapter 3: Sampling with CUQIpy
+# Chapter 3: Basics of CUQIpy for solving BIPs
