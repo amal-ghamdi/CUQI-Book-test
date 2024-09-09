@@ -87,3 +87,13 @@ launch_buttons:
   colab_url: "https://colab.research.google.com"
   thebe                  : true
 
+# add license Apache 2.0
+license:
+  name: Apache 2.0
+  url: https://www.apache.org/licenses/LICENSE-2.0
+
+html:
+  extra_footer: |
+    <p>
+    <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a>
+    </p>
