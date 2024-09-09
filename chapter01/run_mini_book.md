@@ -1,8 +1,8 @@
 
-# Running code examples in the mini-book
+# Running the mini-book code examples
 
 
-Here we suggest the following options to run the code notebooks in the mini-book:
+Here we suggest the following options to run the code notebooks in this mini-book:
 
 - Running on your local machine (preferred)
 - Running using the launch buttons (for quick exploration)
@@ -11,7 +11,7 @@ Here we suggest the following options to run the code notebooks in the mini-book
 
 You can download each notebook by clicking on the download button at the  top-right corner of the notebook, then run it on your local machine.
 
-Alternative to using the download button, you can clone the book repository and run the notebooks on your local machine. To clone it using command line tools, run the following command inside the directory where you want to clone the repository:
+An alternative to using the download button, you can clone the book repository and run the notebooks on your local machine. To clone it using command line tools, run the following command inside the directory where you want to clone the repository:
 ```bash
 git clone https://github.com/CUQI-DTU/CUQI-Book.git
 ```
@@ -19,7 +19,7 @@ git clone https://github.com/CUQI-DTU/CUQI-Book.git
 To run the notebooks, you will need to install CUQIpy and its dependencies. CUQIpy installation instructions can be found [here](https://cuqi-dtu.github.io/CUQIpy/user/getting_started.html).
 
 ## Option 2: Running using the launch button (for quick exploration)
-You can run the notebook using the launch button (a "rocket" icon at the top-right corner of each notebook) which gives you two options:
+You can run the notebooks using the launch button (a "rocket" icon at the top-right corner of each notebook) which gives you two options:
 - Live Code: For running the notebook interactively using [Binder service](mybinder.org).
 - Colab: For running the notebook on [Google Colab](https://colab.research.google.com/). 
 
