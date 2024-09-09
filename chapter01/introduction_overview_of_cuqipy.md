@@ -9,10 +9,7 @@
 * [CUQIpy plugins](#cuqipy-plugins)
 * [CUQIpy design principles](#cuqipy-design-principles)
 * [CUQIpy team](#cuqipy-team)
-* [Role of CUQIpy in this course](#role-of-cuqipy-in-this-course)
-* [Remarks](#remarks)
 * [How to run the code and solve the coding exercises in this mini-book?](#running-the-code)
-* [Additional links](#additional-links)
 
 
 ## Introduction <a class="anchor" id="introduction"></a>
