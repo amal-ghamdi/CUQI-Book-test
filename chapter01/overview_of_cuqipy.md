@@ -3,18 +3,18 @@
 
 
 ## Table of Contents:
-* [What is CUQIpy?](#what-is-cuqipy)
-* [Why CUQIpy?](#why-cuqipy)
-* [CUQIpy modules](#cuqipy-modules)
-* [CUQIpy plugins](#cuqipy-plugins)
-* [CUQIpy design principles](#cuqipy-design-principles)
-* [CUQIpy team](#cuqipy-team)
+* [What is CUQIpy?](#r-what-is-cuqipy)
+* [Why CUQIpy?](#r-why-cuqipy)
+* [CUQIpy modules](#r-cuqipy-modules)
+* [CUQIpy plugins](#r-cuqipy-plugins)
+* [CUQIpy design principles](#r-cuqipy-design-principles)
+* [CUQIpy team](#r-cuqipy-team)
 
 
 
 **Note: some of the details mentioned here will make more sense after going through the [next notebook](intro_example_short.ipynb) that demonstrates how to use CUQIpy to solve a simple Bayesian inverse problem.**
 
-## What is CUQIpy? <a class="anchor" id="what-is-cuqipy"></a>
+## What is CUQIpy? <a class="anchor" id="r-what-is-cuqipy"></a>
 * CUQIpy is a Python package.
 * CUQIpy stands for **C**omputational **U**ncertainty **Q**uantification for **I**nverse **P**roblems in **Py**thon.
 * CUQIpy provides a framework for solving inverse problems using Bayesian inference.
@@ -26,7 +26,7 @@
 ![CUQIpy overview](images/cuqipy_diagram.png)
 
 
-## Why CUQIpy? <a class="anchor" id="why-cuqipy"></a>
+## Why CUQIpy? <a class="anchor" id="r-why-cuqipy"></a>
 CUQIpy is built to address the need for:
   - A unified framework for solving Bayesian inverse problems across various scientific and engineering applications
   - A platform for modeling, solving and analyzing the solution of Bayesian inverse problems
@@ -36,7 +36,7 @@ CUQIpy is built to address the need for:
   - A tool that is implemented purely in Python with minimal dependencies and can be easily maintained and integrated with other tools
 
 
-## CUQIpy modules <a class="anchor" id="cuqipy-modules"></a>
+## CUQIpy modules <a class="anchor" id="r-cuqipy-modules"></a>
 * CUQIpy consists of many modules for modeling, solving, and analyzing Bayesian inverse problems.
 * These modules mostly correspond to typical components/tools needed for modeling and solving Bayesian inverse problems.
 * Each module contains classes and functions that are used to perform specific tasks.
@@ -44,7 +44,7 @@ CUQIpy is built to address the need for:
 
 ![CUQIpy modules](../images/cuqipy_modules.png)
 
-## CUQIpy plugins <a class="anchor" id="cuqipy-plugins"></a>
+## CUQIpy plugins <a class="anchor" id="r-cuqipy-plugins"></a>
 
 * In addition to the CUQIpy modules, CUQIpy also has plugins that extend the functionality of the framework. 
 * These plugins allow integration of third-party software and tools with CUQIpy.
@@ -53,7 +53,7 @@ CUQIpy is built to address the need for:
 ![CUQIpy plugins](../images/cuqipy_modules_plugin.png)
 
 
-## CUQIpy design principles <a class="anchor" id="cuqipy-design-principles"></a>
+## CUQIpy design principles <a class="anchor" id="r-cuqipy-design-principles"></a>
 * Provide simple and intuitive interface for users
 * Design for flexibility, extensibility, modularity, and maintainability
 * Accommodate both beginners and advanced users. e.g.,
@@ -87,7 +87,7 @@ joint = JointDistribution(d, s, x, y)
 
 See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.github.io/CUQIpy/).
 
-## CUQIpy team <a class="anchor" id="cuqipy-team"></a>
+## CUQIpy team <a class="anchor" id="r-cuqipy-team"></a>
 - [Jakob Sauer Jørgensen](https://orbit.dtu.dk/en/persons/jakob-sauer-j%C3%B8rgensen-2)
 - [Nicolai André Brogaard Riis](https://orbit.dtu.dk/en/persons/nicolai-andre-brogaard-riis)
 
