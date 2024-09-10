@@ -46,7 +46,7 @@ html:
 
 sphinx:
   extra_extensions          : ["sphinx_multitoc_numbering"]
-  nb_execution_timeout: 10000
+  nb_execution_timeout: 100000
   config:
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     mathjax3_config:
@@ -87,3 +87,13 @@ launch_buttons:
   colab_url: "https://colab.research.google.com"
   thebe                  : true
 
+# add license Apache 2.0
+license:
+  name: Apache 2.0
+  url: https://www.apache.org/licenses/LICENSE-2.0
+
+html:
+  extra_footer: |
+    <p>
+    <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a>
+    </p>

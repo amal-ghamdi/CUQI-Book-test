@@ -13,7 +13,8 @@ parts:
       # ===== chapter 1 ========================================
       - file: chapter01/chapter01
         sections:
-          - file: chapter01/introduction_overview_of_cuqipy
+          - file: chapter01/overview_of_cuqipy
+          - file: chapter01/run_mini_book.md
           - file: chapter01/intro_example_short.ipynb
           - file: chapter01/intro_example_long.ipynb
 
@@ -53,7 +54,7 @@ parts:
       # ===== chapter 7 ========================================
       - file: chapter07/chapter07
         sections:
-          - file: chapter07/gradient_based_sampling_with_cuqipy.ipynb
+          - file: chapter07/more_theory_on_sampling_with_cuqipy.ipynb
 
 
       # ===== chapter 8 ========================================
