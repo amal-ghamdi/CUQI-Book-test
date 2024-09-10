@@ -3,23 +3,18 @@
 
 
 ## Table of Contents:
-* [What is CUQIpy?](#what-is-cuqipy)
-* [Why CUQIpy?](#why-cuqipy)
-* [CUQIpy modules](#cuqipy-modules)
-* [CUQIpy plugins](#cuqipy-plugins)
-* [CUQIpy design principles](#cuqipy-design-principles)
-* [CUQIpy team](#cuqipy-team)
-* [Role of CUQIpy in this course](#role-of-cuqipy-in-this-course)
-* [Remarks](#remarks)
-* [How to run the code and solve the coding exercises in this mini-book?](#running-the-code)
-* [Additional links](#additional-links)
+* [What is CUQIpy?](#r-what-is-cuqipy)
+* [Why CUQIpy?](#r-why-cuqipy)
+* [CUQIpy modules](#r-cuqipy-modules)
+* [CUQIpy plugins](#r-cuqipy-plugins)
+* [CUQIpy design principles](#r-cuqipy-design-principles)
+* [CUQIpy team](#r-cuqipy-team)
 
 
-## Introduction <a class="anchor" id="introduction"></a>
 
-**Note: some of the details mentioned here will make more sense after going through the next notebook titled "Probably the simplest BIP in the world"**
+**Note: some of the details mentioned here will make more sense after going through the [next notebook](intro_example_short.ipynb) that demonstrates how to use CUQIpy to solve a simple Bayesian inverse problem.**
 
-### What is CUQIpy? <a class="anchor" id="what-is-cuqipy"></a>
+## What is CUQIpy? <a class="anchor" id="r-what-is-cuqipy"></a>
 * CUQIpy is a Python package.
 * CUQIpy stands for **C**omputational **U**ncertainty **Q**uantification for **I**nverse **P**roblems in **Py**thon.
 * CUQIpy provides a framework for solving inverse problems using Bayesian inference.
@@ -31,7 +26,7 @@
 ![CUQIpy overview](images/cuqipy_diagram.png)
 
 
-### Why CUQIpy? <a class="anchor" id="why-cuqipy"></a>
+## Why CUQIpy? <a class="anchor" id="r-why-cuqipy"></a>
 CUQIpy is built to address the need for:
   - A unified framework for solving Bayesian inverse problems across various scientific and engineering applications
   - A platform for modeling, solving and analyzing the solution of Bayesian inverse problems
@@ -41,15 +36,15 @@ CUQIpy is built to address the need for:
   - A tool that is implemented purely in Python with minimal dependencies and can be easily maintained and integrated with other tools
 
 
-### CUQIpy modules <a class="anchor" id="cuqipy-modules"></a>
+## CUQIpy modules <a class="anchor" id="r-cuqipy-modules"></a>
 * CUQIpy consists of many modules for modeling, solving, and analyzing Bayesian inverse problems.
-* These modules mostly correspond to typical steps/components in a Bayesian inverse problem.
+* These modules mostly correspond to typical components/tools needed for modeling and solving Bayesian inverse problems.
 * Each module contains classes and functions that are used to perform specific tasks.
 * click [here](https://cuqi-dtu.github.io/CUQIpy/api/index.html) for an overview of the modules available in CUQIpy.
 
 ![CUQIpy modules](../images/cuqipy_modules.png)
 
-### CUQIpy plugins <a class="anchor" id="cuqipy-plugins"></a>
+## CUQIpy plugins <a class="anchor" id="r-cuqipy-plugins"></a>
 
 * In addition to the CUQIpy modules, CUQIpy also has plugins that extend the functionality of the framework. 
 * These plugins allow integration of third-party software and tools with CUQIpy.
@@ -58,7 +53,7 @@ CUQIpy is built to address the need for:
 ![CUQIpy plugins](../images/cuqipy_modules_plugin.png)
 
 
-### CUQIpy design principles <a class="anchor" id="cuqipy-design-principles"></a>
+## CUQIpy design principles <a class="anchor" id="r-cuqipy-design-principles"></a>
 * Provide simple and intuitive interface for users
 * Design for flexibility, extensibility, modularity, and maintainability
 * Accommodate both beginners and advanced users. e.g.,
@@ -79,7 +74,7 @@ p(d,s,x,y) &= p(d)p(s)p(x|d)p(y|x,s)
 \end{align*}
 $$
 
-where $d^{-1}$ and $s$ are the precision parameters of the prior (the LMRF) and the data distribution (the Gaussian), respectively, $x$ is the model parameter, and $y$ is the data. $\mathbf{A}$ is the forward operator.
+where $d^{-1}$ and $s$ are the precision parameters of the prior (the LMRF) and the data distribution (the Gaussian), respectively, $x$ is the unknown parameter, and $y$ is the data. $\mathbf{A}$ is the forward operator.
 
 Bayesian model in CUQIpy:
 ```python
@@ -92,7 +87,7 @@ joint = JointDistribution(d, s, x, y)
 
 See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.github.io/CUQIpy/).
 
-### CUQIpy team <a class="anchor" id="cuqipy-team"></a>
+## CUQIpy team <a class="anchor" id="r-cuqipy-team"></a>
 - [Jakob Sauer Jørgensen](https://orbit.dtu.dk/en/persons/jakob-sauer-j%C3%B8rgensen-2)
 - [Nicolai André Brogaard Riis](https://orbit.dtu.dk/en/persons/nicolai-andre-brogaard-riis)
 
@@ -101,28 +96,3 @@ See setting up a Bayesian model in CUQIpy in 4 steps [here](https://cuqi-dtu.git
 - [Chao Zhang (Charlie)](https://www.dtu.dk/english/person/chao-zhang?id=207508&entity=profile)
 
 
-
-### How to run the code and solve the coding exercises in this mini-book? <a class="anchor" id="running-the-code"></a>
-
-
-Here we suggest the following options to run the code and solve the coding exercises in this mini-book:
-    - Running on your local machine (preferred)
-    - Running the notebook interactively 
-
-#### Option 1: Running on your local machine
-- You can download each notebook from the top right download button and run it on your local machine.
-- Alternatively, you can clone the course repository and run the notebooks on your local machine. In a terminal, run the following command inside the directory where you want to clone the repository:
-```bash
-git clone https://github.com/CUQI-DTU/CUQI-Book.git
-```
-- To run the notebook, you will need to install CUQIpy and other dependencies, including Jupyter notebook, numpy, matplotlib, etc.
-
-- The instructions for installing CUQIpy can be found [here](https://cuqi-dtu.github.io/CUQIpy/user/getting_started.html).
-
-#### Option 2: Running the notebook interactively
-- You can run the notebook interactively using the Binder service or Google Colab. On the top right corner of the notebook, you will find a "rocket" icon that will take you to the Binder service or Google Colab. 
-- Note that the Binder service may take a few minutes to load the notebook.
-- Note that on google colab, you may need to install CUQIpy by running the following command in a cell:
-```python
-!pip install cuqipy
-```
