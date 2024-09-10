@@ -54,7 +54,7 @@ parts:
       # ===== chapter 7 ========================================
       - file: chapter07/chapter07
         sections:
-          - file: chapter07/gradient_based_sampling_with_cuqipy.ipynb
+          - file: chapter07/more_theory_on_sampling_with_cuqipy.ipynb
 
 
       # ===== chapter 8 ========================================
