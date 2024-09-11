@@ -9,14 +9,16 @@ Here we suggest the following options to run the code notebooks in this mini-boo
 
 ## Option 1: Running on your local machine (preferred)
 
-You can download each notebook by clicking on the download button at the  top-right corner of the notebook, then run it on your local machine.
+
+To run the notebooks on your local machine, you will first need to install CUQIpy and its dependencies. CUQIpy installation instructions can be found [here](https://cuqi-dtu.github.io/CUQIpy/user/getting_started.html).
+
+You can then download each notebook by clicking on the download button at the  top-right corner of the notebook, and run it on your local machine.
 
 An alternative to using the download button, you can clone the book repository and run the notebooks on your local machine. To clone it using command line tools, run the following command inside the directory where you want to clone the repository:
 ```bash
 git clone https://github.com/CUQI-DTU/CUQI-Book.git
 ```
 
-To run the notebooks, you will need to install CUQIpy and its dependencies. CUQIpy installation instructions can be found [here](https://cuqi-dtu.github.io/CUQIpy/user/getting_started.html).
 
 ## Option 2: Running using the launch button (for quick exploration)
 You can run the notebooks using the launch button (a "rocket" icon at the top-right corner of each notebook) which gives you two options:
